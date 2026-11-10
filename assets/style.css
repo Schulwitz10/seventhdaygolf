@@ -326,4 +326,3 @@ body.sabbath .btn-green::after{content:" · ships Monday";font-weight:400;opacit
   .pc-grid{grid-template-columns:1fr;gap:1.6rem}
   .pc-next-grid{grid-template-columns:1fr}
 }
-.buy-cta{margin-top:0;border-top:0;padding-top:0}
