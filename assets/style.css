@@ -289,3 +289,40 @@ body.sabbath .btn-green::after{content:" · ships Monday";font-weight:400;opacit
   .signup input{padding:.8rem 1rem;text-align:center}
   .sabbath-banner{padding:.7rem 2.6rem;font-size:.82rem}
 }
+
+/* Drop 001 collection */
+.collection{padding:7rem 3rem;background:var(--cream)}
+.pc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2.4rem 2rem;max-width:1280px;margin:0 auto}
+.pc{display:flex;flex-direction:column;background:#fffaf0;border:1px solid var(--cream-2);border-radius:4px;overflow:hidden;transition:transform .35s,box-shadow .35s}
+.pc:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(20,52,36,.12)}
+.pc-media{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--cream-2)}
+.pc-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .5s,transform 1.2s}
+.pc-model{object-position:50% 30%}
+.pc-design{opacity:0;object-fit:cover}
+.pc:hover .pc-model{transform:scale(1.03)}
+.pc-media[data-view=design] .pc-model{opacity:0}
+.pc-media[data-view=design] .pc-design{opacity:1}
+.pc-num{position:absolute;top:1rem;left:1rem;background:var(--cream);color:var(--green);font-family:var(--mono);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;padding:.35rem .7rem}
+.pc-toggle{position:absolute;bottom:1rem;left:50%;transform:translateX(-50%);display:flex;background:rgba(13,36,24,.72);backdrop-filter:blur(6px);border-radius:999px;padding:.25rem}
+.pc-toggle button{font-family:var(--mono);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cream);padding:.4rem .85rem;border-radius:999px;transition:.2s;white-space:nowrap}
+.pc-toggle button.on{background:var(--cream);color:var(--green)}
+.pc-body{padding:1.5rem 1.5rem 1.4rem;display:flex;flex-direction:column;flex:1}
+.pc-color{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#7c7660;margin-bottom:.5rem}
+.pc h3{font-size:1.75rem;color:var(--green);margin-bottom:.7rem}
+.pc-desc{font-size:.93rem;color:#3a3a33;margin-bottom:1.3rem}
+.pc-cta{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:.8rem;padding-top:1rem;border-top:1px dashed #d8cca9}
+.pc-status{font-family:var(--mono);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:var(--green-2)}
+.pc-notify{font-weight:600;font-size:.86rem;color:var(--cream);background:var(--green);padding:.6rem 1.1rem;border-radius:999px;transition:background .25s,transform .25s;white-space:nowrap}
+.pc-notify:hover{background:var(--green-2);transform:translateY(-1px)}
+.pc-next{max-width:1280px;margin:4rem auto 0;text-align:center}
+.pc-next-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:.4rem}
+.pc-ghost{display:flex;align-items:center;gap:1rem;text-align:left;border:1px dashed var(--green-2);border-radius:4px;padding:1.2rem 1.4rem;color:#4a4a42}
+.pc-ghost img{height:34px;width:auto;opacity:.75}
+.pc-ghost b{display:block;font-family:var(--serif);font-size:1.35rem;color:var(--green);font-weight:600;line-height:1.1}
+.pc-ghost span{font-size:.86rem}
+@media (max-width:1024px){.pc-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:820px){
+  .collection{padding:5rem 1.2rem}
+  .pc-grid{grid-template-columns:1fr;gap:1.6rem}
+  .pc-next-grid{grid-template-columns:1fr}
+}
