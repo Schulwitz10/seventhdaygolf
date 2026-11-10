@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seventh Day Golf — On the seventh day, there was golf.</title>
+<meta name="description" content="Seventh Day Golf: golf apparel for men of faith. Drop 001, the Retro Band Tee, is coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/img/cross-green.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- Scroll progress as a putt: ball rolls toward the flag -->
+<div class="putt" aria-hidden="true"><div class="putt-line"></div><span class="putt-ball"></span><span class="putt-flag">⛳</span></div>
+
+<div class="sabbath-banner" id="sabbathBanner" hidden>
+  <img src="assets/img/cross-cream.png" alt="" class="sb-cross">
+  <span><strong>It's the seventh day.</strong> We're resting. Look around all you like. Orders placed today ship Monday.</span>
+  <button class="sb-close" aria-label="Dismiss">×</button>
+</div>
+
+<div class="announce">
+  <div class="announce-track">
+    <span>Drop 001 · The Retro Band Tee · Coming soon</span><span>✝</span>
+    <span>Rest is holy. So is a good round.</span><span>✝</span>
+    <span>Play with purpose · Give Him the glory</span><span>✝</span>
+    <span>Drop 001 · The Retro Band Tee · Coming soon</span><span>✝</span>
+    <span>Rest is holy. So is a good round.</span><span>✝</span>
+    <span>Play with purpose · Give Him the glory</span><span>✝</span>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav-logo"><img src="assets/img/logo-cream.png" alt="Seventh Day Golf"></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#drop">Drop 001</a>
+    <a href="#card">The Card</a>
+    <a href="#teetime">Sunday Tee Time</a>
+    <a href="#commandments">The 7</a>
+    <a href="#mission">Mission</a>
+    <a href="#join" class="nav-cta">Get on the tee sheet</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-media"><img src="assets/img/model-hero-tee.jpg" alt="Man in the Seventh Day Golf Retro Band Tee on a fairway at sunrise"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="eyebrow reveal">Genesis 2:2 &nbsp;·&nbsp; Est. 2026</p>
+    <h1 class="reveal">On the seventh day,<br><em>there was golf.</em></h1>
+    <p class="hero-sub reveal">Golf apparel for men of faith. Classic clubhouse style with a streetwear fit, made for early tee times and Sunday mornings.</p>
+    <div class="hero-ctas reveal">
+      <a href="#drop" class="btn btn-cream">See Drop 001</a>
+      <a href="#teetime" class="btn btn-ghost">This week's verse</a>
+    </div>
+  </div>
+  <div class="hero-scorechip reveal">
+    <span>HOLE</span><b>01</b><span>THE RETRO BAND TEE</span>
+  </div>
+</section>
+
+<!-- DROP 001 -->
+<section class="drop" id="drop">
+  <div class="drop-grid">
+    <div class="drop-photo reveal">
+      <img src="assets/img/model-cart-tee.jpg" alt="Man laughing on a golf cart wearing the Retro Band Tee">
+      <span class="tag">Drop 001</span>
+    </div>
+    <div class="drop-info reveal">
+      <p class="eyebrow green">The first release</p>
+      <h2>The Retro Band Tee</h2>
+      <p class="lead">A heavyweight cream tee with an oversized, boxy fit and a wide forest-green band across the chest carrying the wordmark. Turn it around and there's a small cross just below the collar, the quiet part of the shirt.</p>
+
+      <div class="flip" id="flip">
+        <div class="flip-stage">
+          <img src="assets/img/tee-front.png" alt="Retro Band Tee front" class="flip-img active" data-side="front">
+          <img src="assets/img/tee-back.png" alt="Retro Band Tee back with small cross under collar" class="flip-img" data-side="back">
+        </div>
+        <div class="flip-tabs">
+          <button class="active" data-show="front">Front</button>
+          <button data-show="back">Back ✝</button>
+        </div>
+      </div>
+
+      <div class="buy">
+        <div class="price">$45 <small class="ph">placeholder price</small></div>
+        <div class="sizes" role="radiogroup" aria-label="Size">
+          <button>S</button><button>M</button><button class="on">L</button><button>XL</button><button>2XL</button><button>3XL</button>
+        </div>
+        <a href="#join" class="btn btn-green full">Notify me when it drops</a>
+        <ul class="specs">
+          <li>Oversized, boxy fit. Order your usual size.</li>
+          <li>Heavyweight fabric. Fabric details to be confirmed with the sample.</li>
+          <li>Made to order and shipped to your door</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE CARD: scorecard product lineup -->
+<section class="card-sec" id="card">
+  <div class="sec-head reveal">
+    <p class="eyebrow green">The Card · Season One</p>
+    <h2>The lineup, kept like a scorecard</h2>
+    <p>Every release is a hole. Here's the front seven.</p>
+  </div>
+  <div class="scorecard reveal">
+    <div class="sc-row sc-head">
+      <span>Hole</span><span>Item</span><span class="hide-sm">Colorway</span><span class="hide-sm">Par</span><span>Status</span>
+    </div>
+    <a class="sc-row" href="#drop" data-img="assets/img/tee-front.png">
+      <span class="sc-hole">1</span><span class="sc-item">The Retro Band Tee</span><span class="hide-sm">Cream / Forest</span><span class="hide-sm">4</span><span class="sc-status live">Drop 001</span>
+    </a>
+    <a class="sc-row" href="#join" data-img="assets/img/flat-green-polo.jpg">
+      <span class="sc-hole">2</span><span class="sc-item">The Clubhouse Polo</span><span class="hide-sm">Forest / Cream tipping</span><span class="hide-sm">4</span><span class="sc-status">Coming soon</span>
+    </a>
+    <a class="sc-row" href="#join" data-img="assets/img/flat-black-polo.jpg">
+      <span class="sc-hole">3</span><span class="sc-item">The Sabbath Polo</span><span class="hide-sm">Black / Tagline back</span><span class="hide-sm">5</span><span class="sc-status">Coming soon</span>
+    </a>
+    <a class="sc-row" href="#join">
+      <span class="sc-hole">4</span><span class="sc-item">The Rope Hat</span><span class="hide-sm">Forest / Cream rope</span><span class="hide-sm">3</span><span class="sc-status">Coming soon</span>
+    </a>
+    <a class="sc-row" href="#join">
+      <span class="sc-hole">5</span><span class="sc-item">The Trucker</span><span class="hide-sm">Cream / Forest mesh</span><span class="hide-sm">4</span><span class="sc-status">Coming soon</span>
+    </a>
+    <div class="sc-row locked"><span class="sc-hole">6</span><span class="sc-item">Not yet revealed</span><span class="hide-sm">—</span><span class="hide-sm">?</span><span class="sc-status">Locked</span></div>
+    <div class="sc-row locked"><span class="sc-hole">7</span><span class="sc-item">Not yet revealed</span><span class="hide-sm">—</span><span class="hide-sm">?</span><span class="sc-status">Locked</span></div>
+    <div class="sc-foot"><span>Player: ____________</span><span>Attest: Colossians 3:23</span></div>
+    <img class="sc-peek" id="scPeek" alt="" aria-hidden="true">
+  </div>
+
+  <div class="duo">
+    <figure class="reveal"><img src="assets/img/model-green-polo.jpg" alt="Man reading a putt in the forest green Clubhouse Polo"><figcaption><b>Hole 2</b> · The Clubhouse Polo</figcaption></figure>
+    <figure class="reveal"><img src="assets/img/model-black-polo.jpg" alt="Man on a tee box at sunrise, black polo with the tagline on the back"><figcaption><b>Hole 3</b> · The Sabbath Polo</figcaption></figure>
+  </div>
+</section>
+
+<!-- SUNDAY TEE TIME -->
+<section class="teetime" id="teetime">
+  <div class="sec-head light reveal">
+    <p class="eyebrow">Sunday Tee Time</p>
+    <h2>A verse for the first tee</h2>
+    <p>A new verse goes up every week. Read it on the first tee and think on it over the round.</p>
+  </div>
+  <div class="ticket reveal" id="ticket">
+    <div class="ticket-left">
+      <div class="t-row"><span>WEEK</span><b id="tWeek">—</b></div>
+      <div class="t-row"><span>TEE TIME</span><b>SUN · 7:00</b></div>
+      <div class="t-row"><span>COURSE</span><b>Wherever you play</b></div>
+      <div class="t-row"><span>PLAYERS</span><b>You + 1 you bring along</b></div>
+      <img src="assets/img/cross-green.png" alt="" class="t-cross">
+    </div>
+    <div class="ticket-right">
+      <p class="t-ref" id="tRef">—</p>
+      <blockquote id="tVerse">—</blockquote>
+      <div class="t-reflect"><span>ON THE COURSE</span><p id="tReflect">—</p></div>
+      <div class="t-nav">
+        <button id="tPrev" aria-label="Previous verse">←</button>
+        <span id="tCount">1 / 9</span>
+        <button id="tNext" aria-label="Next verse">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE 7 COMMANDMENTS -->
+<section class="commandments" id="commandments">
+  <div class="sec-head reveal">
+    <p class="eyebrow green">House rules</p>
+    <h2>The 7 Commandments of the Course</h2>
+    <p>Tap a card to turn it over.</p>
+  </div>
+  <div class="cmd-grid">
+    <button class="cmd reveal"><span class="num">I</span><span class="front">Rest is holy.</span><span class="back">Six days you work. On the seventh, get outside, slow down, and thank God for the green.</span></button>
+    <button class="cmd reveal"><span class="num">II</span><span class="front">Count every stroke.</span><span class="back">Honest scores make honest men. Nobody sees the foot wedge except the One who matters.</span></button>
+    <button class="cmd reveal"><span class="num">III</span><span class="front">Replace your divots.</span><span class="back">Leave the course, and the people on it, better than you found them.</span></button>
+    <button class="cmd reveal"><span class="num">IV</span><span class="front">Bring someone along.</span><span class="back">Your son, your neighbor, the guy at church who has never played. Every foursome needs a fourth.</span></button>
+    <button class="cmd reveal"><span class="num">V</span><span class="front">Keep your temper in the bag.</span><span class="back">Leave the clubs unthrown. Let your words be gracious, even after a three-putt.</span></button>
+    <button class="cmd reveal"><span class="num">VI</span><span class="front">Pray on the first tee.</span><span class="back">Not for a birdie. For patience, perspective, and good company.</span></button>
+    <button class="cmd reveal wide"><span class="num">VII</span><span class="front">Give Him the glory.</span><span class="back">Win, lose, or lose a sleeve of balls in the water, give Him the glory. 1 Corinthians 10:31.</span></button>
+  </div>
+</section>
+
+<!-- FATHERS / GIVING -->
+<section class="fathers" id="fathers">
+  <div class="fathers-img reveal"><img src="assets/img/model-father-son.jpg" alt="Father and son walking a fairway at golden hour, small crosses on the backs of their tees"></div>
+  <div class="fathers-copy reveal">
+    <p class="eyebrow green">Raised on the range</p>
+    <h2>Teach him the swing.<br><em>Teach him the Way.</em></h2>
+    <p>Some of the best talks a father and son ever have happen between shots. Seventh Day Golf comes out of a love for fatherhood, faith, and the hours you spend walking a fairway together.</p>
+    <blockquote class="pull">“Train up a child in the way he should go: and when he is old, he will not depart from it.” <cite>Proverbs 22:6</cite></blockquote>
+    <div class="give">
+      <img src="assets/img/cross-cream.png" alt="">
+      <div>
+        <b>Every round gives back.</b>
+        <p>A portion of every sale supports fatherhood ministry.</p>
+        <small class="ph">Placeholder: Mike to confirm the percentage and the ministry partner</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="mission" id="mission">
+  <div class="mission-bg" style="background-image:url('assets/img/model-fellowship.jpg')"></div>
+  <div class="mission-copy reveal">
+    <img src="assets/img/cross-cream.png" alt="" class="m-cross">
+    <h2>Rest is holy.<br><em>So is a good round.</em></h2>
+    <p>God rested on the seventh day and called it good. We think a quiet morning on the course, with good men and an open fairway, is one of the best ways to honor that. Seventh Day Golf is for the guys who show up early, play honest, and give Him the glory either way.</p>
+  </div>
+</section>
+
+<!-- LOOKBOOK -->
+<section class="lookbook" id="lookbook">
+  <div class="lb-head reveal">
+    <h3>The Lookbook</h3>
+    <a href="#join" class="lb-handle">@seventhdaygolf <small class="ph">handle placeholder</small></a>
+  </div>
+  <div class="lb-strip" id="lbStrip">
+    <figure><img src="assets/img/model-hero-tee.jpg" alt="Retro Band Tee at sunrise"><figcaption>First light</figcaption></figure>
+    <figure><img src="assets/img/model-green-polo.jpg" alt="Clubhouse Polo on the green"><figcaption>Reading the line</figcaption></figure>
+    <figure><img src="assets/img/model-father-son.jpg" alt="Father and son on the fairway"><figcaption>Front nine with Dad</figcaption></figure>
+    <figure><img src="assets/img/model-black-polo.jpg" alt="Sabbath Polo on the tee box"><figcaption>The seventh day</figcaption></figure>
+    <figure><img src="assets/img/model-cart-tee.jpg" alt="Retro Band Tee on the cart"><figcaption>Coffee, then the first tee</figcaption></figure>
+    <figure><img src="assets/img/model-fellowship.jpg" alt="Friends on the course by a chapel"><figcaption>The foursome</figcaption></figure>
+  </div>
+</section>
+
+<!-- JOIN / COUNTDOWN -->
+<section class="join" id="join">
+  <div class="join-inner reveal">
+    <p class="eyebrow">Drop 001 · Tee time</p>
+    <h2>Get on the tee sheet.</h2>
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div><b id="cdD">00</b><span>Days</span></div>
+      <div><b id="cdH">00</b><span>Hrs</span></div>
+      <div><b id="cdM">00</b><span>Min</span></div>
+      <div><b id="cdS">00</b><span>Sec</span></div>
+    </div>
+    <p class="cd-date">Launches Sunday at 7:00 AM ET <small class="ph">placeholder date</small></p>
+    <form class="signup" id="signup" novalidate>
+      <input type="email" id="email" placeholder="your@email.com" aria-label="Email address" required>
+      <button type="submit" class="btn btn-cream">Reserve my tee time</button>
+    </form>
+    <p class="form-msg" id="formMsg"></p>
+    <p class="form-note">Concept preview: this form isn't connected to an email list yet, so nothing gets sent or saved.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <img src="assets/img/logo-cream.png" alt="Seventh Day Golf" class="f-logo">
+  <p class="f-tag">On the seventh day, there was golf.</p>
+  <div class="f-links">
+    <a href="#drop">Shop</a><a href="#teetime">Sunday Tee Time</a><a href="#mission">Mission</a><a href="#join">Newsletter</a>
+  </div>
+  <button class="sabbath-toggle" id="sabbathToggle">Preview Sabbath Mode</button>
+  <p class="f-small">© 2026 Seventh Day Golf · seventhdaygolf.com</p>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
