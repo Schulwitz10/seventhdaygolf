@@ -94,11 +94,4 @@
   if (new Date().getDay() === 0) setSabbath(true);
   $('sabbathToggle').onclick = () => { setSabbath(!document.body.classList.contains('sabbath')); scrollTo({ top: 0, behavior: 'smooth' }); };
   banner.querySelector('.sb-close').onclick = () => { banner.hidden = true; };
-
-  // Drop 001 product cards: switch between the on-course photo and the design view
-  document.querySelectorAll('.pc-toggle button').forEach(b => b.addEventListener('click', () => {
-    const media = b.closest('.pc-media');
-    media.dataset.view = b.dataset.v;
-    media.querySelectorAll('.pc-toggle button').forEach(x => x.classList.toggle('on', x === b));
-  }));
 })();
