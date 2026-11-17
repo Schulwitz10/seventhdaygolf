@@ -68,11 +68,11 @@ images/products/<slug>/back-angle.webp
 images/products/<slug>/model-1.webp
 ```
 
-`data/sources.json` maps those WebP paths to PNGs in `sdg-mockups/`. That folder is gitignored, so the raw files stay off the repo and the committed images are the WebPs. When a PNG is there, `scripts/images.py` (run by the build) resizes it to WebP (longest edge 1600) and sets `"placeholder": false`. If the PNG is missing, the script draws a labeled stand-in the first time, and the page says the studio photo is on the way. A `"primary": true` image is the card and gallery lead even when it is still a stand-in. A `"seasonal": true` image is only the hover or a later gallery frame.
+`data/sources.json` maps those WebP paths to PNGs in `sdg-mockups/`. That folder is gitignored, so the raw files stay off the repo and the committed images are the WebPs. When a PNG is there, `scripts/images.py` (run by the build) resizes it to WebP (longest edge 1600) and sets `"placeholder": false`. If the PNG is missing, the script draws a labeled stand-in the first time, and the page says the studio photo is on the way. A `"primary": true` image is the card and gallery lead even when it is still a stand-in. A `"seasonal": true` image stays in the gallery and is not the hover image.
 
 To swap a photo in without the build, replace the WebP at the same path and set `"placeholder": false` on that image in `data/products.json`. The card uses the first real front shot, and hovers to the back when one exists.
 
-Pieces still waiting on a full studio set: the Jesus Is My Caddie tee front, the beanie’s main shots (a seasonal photo can fill `model-1.webp`), the dad hat, the athletic shorts, the towel, the white script tee, the Glory of God tee, and the Cross Sunset tee.
+Every piece in the first drop has a photograph. The beanie’s Christmas photo is `lifestyle.webp`, last in that gallery, and it is not the hover image.
 
 ## Checkout, later
 

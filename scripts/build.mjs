@@ -36,12 +36,17 @@ const json = (value) => JSON.stringify(value).replace(/</g, "\\u003c");
 const dims = (src) => meta[src] || { width: 1200, height: 1500 };
 
 function pickImages(product) {
+  const usable = (image) => image && !image.placeholder && !image.seasonal;
   const primary = product.images.find((image) => image.primary)
-    || product.images.find((image) => !image.placeholder && !image.seasonal && image.view === "front")
-    || product.images.find((image) => !image.placeholder && !image.seasonal)
+    || product.images.find((image) => usable(image) && (image.view === "front" || image.view === "front-angle"))
+    || product.images.find((image) => usable(image))
     || product.images[0];
-  const secondary = product.images.find((image) => image.src !== primary.src && !image.placeholder && (image.view === "back" || image.view === "back-angle"))
-    || product.images.find((image) => image.src !== primary.src && image.seasonal && !image.placeholder)
+  const others = product.images.filter((image) => image.src !== primary.src && usable(image));
+  const leadIsBack = primary.view === "back" || primary.view === "back-angle";
+  const secondary = (leadIsBack
+    ? others.find((image) => image.view === "front" || image.view === "front-angle")
+    : others.find((image) => image.view === "back" || image.view === "back-angle"))
+    || others[0]
     || product.images.find((image) => image.src !== primary.src && !image.placeholder)
     || null;
   return { primary, secondary };
@@ -205,6 +210,21 @@ function hero() {
   </section>`;
 }
 
+function lifestyle() {
+  const shorts = products.find((product) => product.slug === "black-athletic-shorts");
+  const shot = shorts?.images.find((image) => image.lifestyle && !image.placeholder);
+  if (!shot) return "";
+  const d = dims(shot.src);
+  return `<section class="lifestyle">
+    <img src="/${shot.src}" alt="${esc(shot.alt)}" width="${d.width}" height="${d.height}" loading="lazy">
+    <div class="lifestyle-copy wrap">
+      <p class="eyebrow">Worn on the course</p>
+      <h2 class="display">Black Athletic Shorts</h2>
+      <p><a class="btn btn-cream" href="/products/${shorts.slug}/">Shop the shorts</a></p>
+    </div>
+  </section>`;
+}
+
 function home() {
   const feature = products.find((product) => product.slug === "walk-on-water-tee");
   const shot = feature.images.find((image) => image.view === "back" && !image.placeholder) || pickImages(feature).primary;
@@ -221,6 +241,7 @@ function home() {
       <div class="sec-head"><h2>New arrivals</h2><a class="sec-link" href="/collections/new-arrivals/">Shop all new</a></div>
       ${grid(products.filter((p) => p.newArrival).slice(0, 8))}
     </div></section>
+    ${lifestyle()}
     <section class="feature">
       <img src="/${shot.src}" alt="${esc(shot.alt)}" width="${d.width}" height="${d.height}" loading="lazy">
       <div class="feature-copy">
@@ -384,7 +405,7 @@ function faq() {
     ["When does it ship?", "These pieces will be printed on demand. After checkout opens, plan on about 2–7 business days after production, and then carrier time. We will publish the exact window with the first drop."],
     ["Are the prices final?", "No. Every price is a placeholder in data/config.json: tees $45 (2XS–XL) and $52 (2XL–6XL), shorts $58 and $68 on the same split, rope cap $34, bucket hat $34, dad hat $32, beanie $30, towel $25. They change in that one file."],
     ["What about returns?", "A returns policy will be posted before the first paid order. Until then there is nothing to return, because we are not taking payment."],
-    ["Where are some of the photos?", "A few pieces are still in the studio. Those pages use a labeled stand-in. Real files replace them by dropping into images/products and keeping the same file name, such as front.webp or model-1.webp."],
+    ["Where do the photos come from?", "These are mockups of the samples. The cloth in hand may vary slightly. New files replace the WebPs in images/products when a piece is reshot."],
     ["Who do I write?", `Email ${config.notifyEmail}. The contact page opens that note in your mail app.`]
   ];
   const body = `<article class="wrap prose faq" style="padding-top:1.6rem">
