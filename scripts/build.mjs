@@ -36,17 +36,19 @@ const json = (value) => JSON.stringify(value).replace(/</g, "\\u003c");
 const dims = (src) => meta[src] || { width: 1200, height: 1500 };
 
 function pickImages(product) {
-  const real = product.images.filter((image) => !image.placeholder);
-  const pool = real.length ? real : product.images;
-  const primary = pool.find((image) => image.view === "front") || pool[0];
-  const secondary = pool.find((image) => image !== primary && (image.view === "back" || image.view === "back-angle"))
-    || pool.find((image) => image.src !== primary.src)
+  const primary = product.images.find((image) => image.primary)
+    || product.images.find((image) => !image.placeholder && !image.seasonal && image.view === "front")
+    || product.images.find((image) => !image.placeholder && !image.seasonal)
+    || product.images[0];
+  const secondary = product.images.find((image) => image.src !== primary.src && !image.placeholder && (image.view === "back" || image.view === "back-angle"))
+    || product.images.find((image) => image.src !== primary.src && image.seasonal && !image.placeholder)
+    || product.images.find((image) => image.src !== primary.src && !image.placeholder)
     || null;
   return { primary, secondary };
 }
 
 function badge(product) {
-  if (!product.images.some((image) => !image.placeholder)) return "Photo soon";
+  if (pickImages(product).primary.placeholder) return "Photo soon";
   if (product.featured) return "Featured";
   return "New";
 }
@@ -182,11 +184,12 @@ function write(path, html) {
 
 function hero() {
   const heroProduct = products.find((product) => product.hero);
-  const photo = heroProduct?.images.find((image) => !image.placeholder);
-  const d = photo ? dims(photo.src) : null;
-  return `<section class="hero${photo ? " hero-photo" : ""}">
-    ${photo ? `<img class="hero-bg" src="/${photo.src}" alt="${esc(photo.alt)}" width="${d.width}" height="${d.height}" fetchpriority="high">` : `<div class="hero-mark" aria-hidden="true">7</div>`}
-    ${photo ? `<div class="hero-shade"></div>` : ""}
+  const photo = pickImages(heroProduct).primary;
+  const usable = photo && !photo.placeholder ? photo : null;
+  const d = usable ? dims(usable.src) : null;
+  return `<section class="hero${usable ? " hero-photo" : ""}">
+    ${usable ? `<img class="hero-bg" src="/${usable.src}" alt="${esc(usable.alt)}" width="${d.width}" height="${d.height}" fetchpriority="high">` : `<div class="hero-mark" aria-hidden="true">7</div>`}
+    ${usable ? `<div class="hero-shade"></div>` : ""}
     <div class="hero-inner">
       <p class="eyebrow">Est. 2026 · Christian golf apparel</p>
       <h1 class="display">On the seventh day,<br>there was golf.</h1>
@@ -203,8 +206,8 @@ function hero() {
 }
 
 function home() {
-  const feature = products.find((product) => product.slug === "black-golf-rope-cap");
-  const shot = pickImages(feature).primary;
+  const feature = products.find((product) => product.slug === "walk-on-water-tee");
+  const shot = feature.images.find((image) => image.view === "back" && !image.placeholder) || pickImages(feature).primary;
   const d = dims(shot.src);
   const body = `
     ${hero()}
@@ -221,11 +224,11 @@ function home() {
     <section class="feature">
       <img src="/${shot.src}" alt="${esc(shot.alt)}" width="${d.width}" height="${d.height}" loading="lazy">
       <div class="feature-copy">
-        <p class="eyebrow">Featured · One size</p>
+        <p class="eyebrow">${feature.verse ? esc(feature.verse) : "Featured"}</p>
         <h2 class="display">${esc(feature.name)}</h2>
         <p>${esc(feature.description)}</p>
-        <p>${esc(priceLabel(feature, config))} <span class="fine">· placeholder</span></p>
-        <p><a class="btn btn-cream" href="/products/${feature.slug}/">View the cap</a></p>
+        <p>${esc(priceLabel(feature, config))}</p>
+        <p><a class="btn btn-cream" href="/products/${feature.slug}/">Shop the tee</a></p>
       </div>
     </section>
     <section class="quote">
@@ -254,7 +257,7 @@ function catalog({ title, description, path, blurb, list }) {
 }
 
 function productPage(product) {
-  const start = product.images.find((image) => !image.placeholder) || product.images[0];
+  const start = pickImages(product).primary;
   const prices = resolvedPrices(product, config);
   const note = upchargeNote(product, config);
   const single = product.sizes.length === 1;

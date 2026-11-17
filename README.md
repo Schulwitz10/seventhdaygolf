@@ -68,7 +68,7 @@ images/products/<slug>/back-angle.webp
 images/products/<slug>/model-1.webp
 ```
 
-`data/sources.json` maps those files to the original PNGs in `sdg-mockups/`. When a PNG is there, `scripts/images.py` (run by the build) resizes it to WebP (longest edge 1600) and clears `"placeholder": false`. If the PNG is missing, the script draws a labeled stand-in the first time, and the page says the studio photo is on the way.
+`data/sources.json` maps those WebP paths to PNGs in `sdg-mockups/`. That folder is gitignored, so the raw files stay off the repo and the committed images are the WebPs. When a PNG is there, `scripts/images.py` (run by the build) resizes it to WebP (longest edge 1600) and sets `"placeholder": false`. If the PNG is missing, the script draws a labeled stand-in the first time, and the page says the studio photo is on the way. A `"primary": true` image is the card and gallery lead even when it is still a stand-in. A `"seasonal": true` image is only the hover or a later gallery frame.
 
 To swap a photo in without the build, replace the WebP at the same path and set `"placeholder": false` on that image in `data/products.json`. The card uses the first real front shot, and hovers to the back when one exists.
 

@@ -37,19 +37,20 @@
           "src": "images/products/black-golf-rope-cap/model-1.webp",
           "alt": "Smiling man wearing the black Seventh Day Golf rope cap with a white rope brim",
           "view": "model",
-          "placeholder": true
+          "placeholder": false,
+          "primary": true
         },
         {
           "src": "images/products/black-golf-rope-cap/model-2.webp",
           "alt": "Woman wearing the black Seventh Day Golf rope cap with white script embroidery",
           "view": "model",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/black-golf-rope-cap/front.webp",
           "alt": "Black rope cap with white Seventh Day script, golf-club underline, and est. 2026, laid on folded white cloth",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -105,25 +106,25 @@
           "src": "images/products/walk-on-water-tee/front.webp",
           "alt": "Front of the black Walk on Water tee, flat, with the Seventh Day mark on the sleeve",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/walk-on-water-tee/front-angle.webp",
           "alt": "Angled front of the black Walk on Water tee, with a small paint splash near the hem",
           "view": "front-angle",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/walk-on-water-tee/back.webp",
           "alt": "Back of the black Walk on Water tee, flat, with a golf ball and Matthew 14:29",
           "view": "back",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/walk-on-water-tee/back-angle.webp",
           "alt": "Angled back of the black Walk on Water tee showing the full Walk on Water graphic",
           "view": "back-angle",
-          "placeholder": true
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -180,19 +181,19 @@
           "src": "images/products/on-the-seventh-day-we-golf-tee/front.webp",
           "alt": "Front of the black On the Seventh Day, We Golf tee with the Seventh Day script logo",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/on-the-seventh-day-we-golf-tee/back.webp",
           "alt": "Back of the black On the Seventh Day, We Golf tee, flat, with ball, flag, and chartreuse lettering",
           "view": "back",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/on-the-seventh-day-we-golf-tee/back-angle.webp",
           "alt": "Angled back of the black On the Seventh Day, We Golf tee",
           "view": "back-angle",
-          "placeholder": true
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -249,7 +250,7 @@
           "src": "images/products/jesus-is-my-caddie-tee/back-angle.webp",
           "alt": "Angled back of the black Jesus Is My Caddie tee, Jesus carrying a golf bag on a fairway at sunrise",
           "view": "back-angle",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/jesus-is-my-caddie-tee/front.webp",
@@ -300,31 +301,31 @@
           "src": "images/products/white-bucket-hat/front.webp",
           "alt": "White Seventh Day Golf bucket hat on a black background, script logo and est. 2026",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/white-bucket-hat/model-1.webp",
           "alt": "Man outdoors wearing the white Seventh Day Golf bucket hat",
           "view": "model",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/white-bucket-hat/model-2.webp",
           "alt": "Man in a gray t-shirt holding the brim of the white Seventh Day Golf bucket hat",
           "view": "model",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/white-bucket-hat/model-3.webp",
           "alt": "Woman holding the brim of the white Seventh Day Golf bucket hat",
           "view": "model",
-          "placeholder": true
+          "placeholder": false
         },
         {
           "src": "images/products/white-bucket-hat/model-4.webp",
           "alt": "Man in a denim jacket wearing the white Seventh Day Golf bucket hat",
           "view": "model",
-          "placeholder": true
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -370,13 +371,15 @@
           "src": "images/products/black-cuffed-beanie/front.webp",
           "alt": "Black cuffed Seventh Day Golf beanie, studio photograph coming soon",
           "view": "front",
-          "placeholder": true
+          "placeholder": true,
+          "primary": true
         },
         {
           "src": "images/products/black-cuffed-beanie/model-1.webp",
           "alt": "Black cuffed Seventh Day Golf beanie styled with paper trees in a Christmas setting",
           "view": "model",
-          "placeholder": true
+          "placeholder": false,
+          "seasonal": true
         }
       ],
       "commerce": {
