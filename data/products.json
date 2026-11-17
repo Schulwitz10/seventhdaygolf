@@ -236,27 +236,34 @@
       "sort": 3,
       "verse": "",
       "summary": "Black oversized tee. Jesus walks a fairway with a golf bag under the words Jesus Is My Caddie.",
-      "description": "A black oversized tee. On the back, an illustration of Jesus walking a pine-lined fairway at sunrise with a golf bag over his shoulder, under the words Jesus Is My Caddie in cream blackletter. The front photograph is still being finished.",
+      "description": "A black oversized tee. On the back, an illustration of Jesus walking a pine-lined fairway at sunrise with a golf bag over his shoulder, under the words Jesus Is My Caddie in cream blackletter. The front carries a small Seventh Day mark at the hem.",
       "details": [
         "Black oversized tee",
         "Back illustration: Jesus carrying a golf bag on a course at sunrise",
         "Cream blackletter: Jesus Is My Caddie",
-        "Front photo coming soon",
+        "Small Seventh Day mark at the front hem",
         "Fabric weight confirmed when the sample arrives"
       ],
       "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
       "images": [
         {
+          "src": "images/products/jesus-is-my-caddie-tee/back.webp",
+          "alt": "Back of the black Jesus Is My Caddie tee, Jesus carrying a golf bag under cream blackletter",
+          "view": "back",
+          "placeholder": false,
+          "primary": true
+        },
+        {
+          "src": "images/products/jesus-is-my-caddie-tee/front-angle.webp",
+          "alt": "Angled front of the black Jesus Is My Caddie tee with a small Seventh Day mark at the hem",
+          "view": "front-angle",
+          "placeholder": false
+        },
+        {
           "src": "images/products/jesus-is-my-caddie-tee/back-angle.webp",
           "alt": "Angled back of the black Jesus Is My Caddie tee, Jesus carrying a golf bag on a fairway at sunrise",
           "view": "back-angle",
           "placeholder": false
-        },
-        {
-          "src": "images/products/jesus-is-my-caddie-tee/front.webp",
-          "alt": "Front of the black Jesus Is My Caddie tee, photograph coming soon",
-          "view": "front",
-          "placeholder": true
         }
       ],
       "commerce": {
@@ -357,27 +364,49 @@
       "hero": false,
       "sort": 5,
       "verse": "",
-      "summary": "Black cuffed beanie with the Seventh Day mark. Studio shots are still coming.",
-      "description": "A black cuffed beanie with the Seventh Day script, golf-club underline, and est. 2026 in white. The main studio photographs are still on the way. A seasonal photo is in the gallery until they arrive. One size.",
+      "summary": "Black cuffed beanie with the Seventh Day script, golf-club underline, and est. 2026.",
+      "description": "A black cuffed beanie with the Seventh Day script, a golf-club underline, and est. 2026 in white. One size. A Christmas photograph is at the end of the gallery.",
       "details": [
         "Black cuffed knit beanie",
-        "White mark: Seventh Day, golf-club underline, est. 2026",
-        "Studio photographs coming soon",
+        "White embroidery: Seventh Day, golf-club underline, est. 2026",
         "One size"
       ],
       "fit": "One size. Cuffed.",
       "images": [
         {
           "src": "images/products/black-cuffed-beanie/front.webp",
-          "alt": "Black cuffed Seventh Day Golf beanie, studio photograph coming soon",
+          "alt": "Black cuffed Seventh Day Golf beanie on a black background, white script and est. 2026 on the cuff",
           "view": "front",
-          "placeholder": true,
-          "primary": true
+          "placeholder": false
         },
         {
           "src": "images/products/black-cuffed-beanie/model-1.webp",
-          "alt": "Black cuffed Seventh Day Golf beanie styled with paper trees in a Christmas setting",
+          "alt": "Man in a white sweatshirt wearing the black Seventh Day Golf beanie",
           "view": "model",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-cuffed-beanie/model-2.webp",
+          "alt": "Woman in a pink hoodie wearing the black Seventh Day Golf beanie",
+          "view": "model",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-cuffed-beanie/model-3.webp",
+          "alt": "Man in a gray jacket wearing the black Seventh Day Golf beanie",
+          "view": "model",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-cuffed-beanie/model-4.webp",
+          "alt": "Woman with blonde hair wearing the black Seventh Day Golf beanie",
+          "view": "model",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-cuffed-beanie/lifestyle.webp",
+          "alt": "Black cuffed Seventh Day Golf beanie styled with paper trees in a Christmas setting",
+          "view": "lifestyle",
           "placeholder": false,
           "seasonal": true
         }
@@ -411,21 +440,38 @@
       "hero": false,
       "sort": 10,
       "verse": "",
-      "summary": "Black dad hat with the Seventh Day script. Photograph coming soon.",
-      "description": "A black dad hat with the Seventh Day script on the front. The photograph is on the way and will drop into this page without a redesign. One size.",
+      "summary": "Black dad hat with the Seventh Day script, golf-club underline, and est. 2026.",
+      "description": "A black dad hat with the Seventh Day script, a golf-club underline, and est. 2026 in white on the front. One size. Unstructured.",
       "details": [
         "Black dad hat",
-        "Seventh Day script on the front",
-        "Photograph coming soon",
+        "White embroidery: Seventh Day, golf-club underline, est. 2026",
         "One size"
       ],
       "fit": "One size. Unstructured dad-hat fit.",
       "images": [
         {
           "src": "images/products/black-dad-hat/front.webp",
-          "alt": "Black Seventh Day Golf dad hat, photograph coming soon",
+          "alt": "Black Seventh Day Golf dad hat on a black background, white script and est. 2026",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-dad-hat/model-1.webp",
+          "alt": "Close-up of a man wearing the black Seventh Day Golf dad hat",
+          "view": "model",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-dad-hat/model-2.webp",
+          "alt": "Woman in a gray sweatshirt wearing the black Seventh Day Golf dad hat",
+          "view": "model",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-dad-hat/model-3.webp",
+          "alt": "Man from behind in a plaid shirt, hands on the black Seventh Day Golf dad hat",
+          "view": "model",
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -467,21 +513,34 @@
       "hero": false,
       "sort": 9,
       "verse": "",
-      "summary": "Black athletic shorts from 2XS to 6XL. Photograph coming soon.",
-      "description": "Black athletic shorts for warm-ups and the walk between shots. The size run goes from 2XS through 6XL. The studio photograph is on the way.",
+      "summary": "Black athletic shorts with the Seventh Day script on the leg, 2XS to 6XL.",
+      "description": "Black athletic shorts for warm-ups and the walk between shots. The Seventh Day script, golf-club underline, and est. 2026 sit on the leg. The size run goes from 2XS through 6XL.",
       "details": [
         "Black athletic shorts",
+        "White script on the leg: Seventh Day, golf-club underline, est. 2026",
         "Sizes 2XS through 6XL",
-        "Fabric confirmed when the sample arrives",
-        "Photograph coming soon"
+        "Fabric confirmed when the sample arrives"
       ],
       "fit": "Cut with room to move. Size down if you want them shorter or closer. 2XL through 6XL are priced a step higher.",
       "images": [
         {
           "src": "images/products/black-athletic-shorts/front.webp",
-          "alt": "Black Seventh Day Golf athletic shorts, photograph coming soon",
+          "alt": "Cropped front view of the black Seventh Day Golf athletic shorts with white script on the leg",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
+        },
+        {
+          "src": "images/products/black-athletic-shorts/model-1.webp",
+          "alt": "Man and woman wearing the black Seventh Day Golf athletic shorts",
+          "view": "model",
+          "placeholder": false,
+          "lifestyle": true
+        },
+        {
+          "src": "images/products/black-athletic-shorts/model-2.webp",
+          "alt": "Woman in a white quarter-zip pullover wearing the black Seventh Day Golf athletic shorts",
+          "view": "model",
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -514,21 +573,20 @@
       "sort": 11,
       "verse": "",
       "summary": "Golf towel, 16 by 24 inches, with the Jesus Is My Caddie artwork.",
-      "description": "A golf towel, 16 by 24 inches, printed with the Jesus Is My Caddie artwork. One size. The photograph is on the way.",
+      "description": "A golf towel, 16 by 24 inches, printed with the Jesus Is My Caddie artwork. One size.",
       "details": [
         "Golf towel",
         "16 \u00d7 24 inches",
         "Jesus Is My Caddie artwork",
-        "Photograph coming soon",
         "One size"
       ],
       "fit": "One size. 16 \u00d7 24 inches.",
       "images": [
         {
           "src": "images/products/jesus-is-my-caddie-towel/front.webp",
-          "alt": "Jesus Is My Caddie golf towel, 16 by 24 inches, photograph coming soon",
+          "alt": "Jesus Is My Caddie golf towel, 16 by 24 inches",
           "view": "front",
-          "placeholder": true
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -571,27 +629,33 @@
       "sort": 6,
       "verse": "",
       "summary": "White oversized tee with black sleeves. Script logo on the front, arched wordmark on the back.",
-      "description": "A white oversized tee with black sleeves. The Seventh Day script sits on the front. The back carries SEVENTH DAY GOLF in an arch. Photographs are on the way.",
+      "description": "A white oversized tee with black sleeves. The Seventh Day script sits at the front hem, with a cross on the sleeve. The back carries SEVENTH DAY GOLF in an arch.",
       "details": [
         "White body, black sleeves",
-        "Script logo on the front",
+        "Script logo at the front hem",
+        "Cross on the sleeve",
         "SEVENTH DAY GOLF arch on the back",
-        "Photographs coming soon",
         "Fabric weight confirmed when the sample arrives"
       ],
       "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
       "images": [
         {
-          "src": "images/products/white-script-tee/front.webp",
-          "alt": "Front of the white Seventh Day script tee with black sleeves, photograph coming soon",
-          "view": "front",
-          "placeholder": true
+          "src": "images/products/white-script-tee/front-angle.webp",
+          "alt": "Angled front of the white script tee with black sleeves, Seventh Day at the hem and a cross on the sleeve",
+          "view": "front-angle",
+          "placeholder": false
         },
         {
           "src": "images/products/white-script-tee/back.webp",
-          "alt": "Back of the white script tee with the SEVENTH DAY GOLF arch, photograph coming soon",
+          "alt": "Back of the white script tee with the SEVENTH DAY GOLF arch",
           "view": "back",
-          "placeholder": true
+          "placeholder": false
+        },
+        {
+          "src": "images/products/white-script-tee/back-angle.webp",
+          "alt": "Angled back of the white script tee with the SEVENTH DAY GOLF arch",
+          "view": "back-angle",
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -634,26 +698,31 @@
       "sort": 7,
       "verse": "1 Corinthians 10:31",
       "summary": "Gray oversized tee with white sleeves and 1 Corinthians 10:31.",
-      "description": "A gray oversized tee with white sleeves. Across it: Whatever you do, do it all for the glory of God, with 1 Corinthians 10:31. Photographs are on the way.",
+      "description": "A gray oversized tee with white sleeves. Across it: Whatever you do, do it all for the glory of God, with 1 Corinthians 10:31.",
       "details": [
         "Gray body, white sleeves",
         "Line from 1 Corinthians 10:31",
-        "Photographs coming soon",
         "Fabric weight confirmed when the sample arrives"
       ],
       "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
       "images": [
         {
-          "src": "images/products/glory-of-god-tee/front.webp",
-          "alt": "Front of the gray Glory of God tee with white sleeves, photograph coming soon",
-          "view": "front",
-          "placeholder": true
+          "src": "images/products/glory-of-god-tee/front-angle.webp",
+          "alt": "Angled front of the gray Glory of God tee with white sleeves and 1 Corinthians 10:31",
+          "view": "front-angle",
+          "placeholder": false
         },
         {
           "src": "images/products/glory-of-god-tee/back.webp",
-          "alt": "Back of the gray Glory of God tee, photograph coming soon",
+          "alt": "Back of the gray Glory of God tee with white sleeves",
           "view": "back",
-          "placeholder": true
+          "placeholder": false
+        },
+        {
+          "src": "images/products/glory-of-god-tee/back-angle.webp",
+          "alt": "Angled back of the gray Glory of God tee with white sleeves",
+          "view": "back-angle",
+          "placeholder": false
         }
       ],
       "commerce": {
@@ -695,28 +764,34 @@
       "hero": false,
       "sort": 8,
       "verse": "",
-      "summary": "White oversized tee with a cross at sunset and the crown mark on the back.",
-      "description": "A white oversized tee. A cross at sunset on the front, and the Seventh Day Golf crown on the back. Photographs are on the way.",
+      "summary": "White oversized tee. Small mark on the front, crown and cross sunset on the back.",
+      "description": "A white oversized tee. A small Seventh Day mark sits at the front hem. The back carries the crown, SEVENTH DAY GOLF in an arch, and a cross over an orange sunset.",
       "details": [
         "White oversized tee",
-        "Cross sunset graphic on the front",
-        "SEVENTH DAY GOLF crown on the back",
-        "Photographs coming soon",
+        "Small Seventh Day mark at the front hem",
+        "Back: crown, SEVENTH DAY GOLF arch, cross over an orange sunset",
         "Fabric weight confirmed when the sample arrives"
       ],
       "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
       "images": [
         {
-          "src": "images/products/cross-sunset-tee/front.webp",
-          "alt": "Front of the white Cross Sunset tee, photograph coming soon",
-          "view": "front",
-          "placeholder": true
+          "src": "images/products/cross-sunset-tee/back.webp",
+          "alt": "Back of the white Cross Sunset tee with the crown, SEVENTH DAY GOLF arch, and a cross over an orange sunset",
+          "view": "back",
+          "placeholder": false,
+          "primary": true
         },
         {
-          "src": "images/products/cross-sunset-tee/back.webp",
-          "alt": "Back of the white Cross Sunset tee with the Seventh Day Golf crown, photograph coming soon",
-          "view": "back",
-          "placeholder": true
+          "src": "images/products/cross-sunset-tee/front.webp",
+          "alt": "Front of the white Cross Sunset tee with a small Seventh Day mark at the hem",
+          "view": "front",
+          "placeholder": false
+        },
+        {
+          "src": "images/products/cross-sunset-tee/back-angle.webp",
+          "alt": "Angled back of the white Cross Sunset tee with the crown and sunset cross",
+          "view": "back-angle",
+          "placeholder": false
         }
       ],
       "commerce": {
