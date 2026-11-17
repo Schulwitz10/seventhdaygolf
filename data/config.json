@@ -1,0 +1,43 @@
+{
+  "brand": "Seventh Day Golf",
+  "tagline": "On the seventh day, there was golf.",
+  "domain": "https://seventhdaygolf.com",
+  "notifyEmail": "hello@seventhdaygolf.com",
+  "currency": "USD",
+  "pricesArePlaceholders": true,
+  "priceNote": "Placeholder price until the samples are approved.",
+  "shippingNote": "Printed on demand. Once checkout is open, pieces ship in about 2–7 business days after production, then they travel with the carrier.",
+  "announcements": [
+    "Dropping soon. Checkout opens when the samples are approved.",
+    "Placeholder prices. Final numbers land with the first drop.",
+    "On the seventh day, there was golf.",
+    "Printed on demand. About 2–7 business days after production."
+  ],
+  "prices": {
+    "tee": {
+      "amount": 45,
+      "sizePrices": {
+        "2XL": 52,
+        "3XL": 52,
+        "4XL": 52,
+        "5XL": 52,
+        "6XL": 52
+      }
+    },
+    "shorts": {
+      "amount": 58,
+      "sizePrices": {
+        "2XL": 68,
+        "3XL": 68,
+        "4XL": 68,
+        "5XL": 68,
+        "6XL": 68
+      }
+    },
+    "rope-cap": { "amount": 34 },
+    "bucket-hat": { "amount": 34 },
+    "dad-hat": { "amount": 32 },
+    "beanie": { "amount": 30 },
+    "towel": { "amount": 25 }
+  }
+}

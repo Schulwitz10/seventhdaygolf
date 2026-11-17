@@ -1,0 +1,726 @@
+{
+  "products": [
+    {
+      "id": "rope-cap-black",
+      "name": "Black Golf Rope Cap",
+      "slug": "black-golf-rope-cap",
+      "collection": "headwear",
+      "priceKey": "rope-cap",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": true,
+      "hero": true,
+      "sort": 0,
+      "verse": "",
+      "summary": "Black five-panel rope cap with a white rope and the Seventh Day script.",
+      "description": "A black five-panel rope cap with a white rope along the brim. The front is embroidered in white: Seventh Day in script, a golf club for the underline, and est. 2026. One size, made to wear on the course and off it.",
+      "details": [
+        "Five-panel rope cap",
+        "White rope along the brim",
+        "White embroidery: Seventh Day, golf-club underline, est. 2026",
+        "One size"
+      ],
+      "fit": "One size. The rope cap sits like a standard golf rope hat.",
+      "images": [
+        {
+          "src": "images/products/black-golf-rope-cap/model-1.webp",
+          "alt": "Smiling man wearing the black Seventh Day Golf rope cap with a white rope brim",
+          "view": "model",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/black-golf-rope-cap/model-2.webp",
+          "alt": "Woman wearing the black Seventh Day Golf rope cap with white script embroidery",
+          "view": "model",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/black-golf-rope-cap/front.webp",
+          "alt": "Black rope cap with white Seventh Day script, golf-club underline, and est. 2026, laid on folded white cloth",
+          "view": "front",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "tee-walk-on-water",
+      "name": "Walk on Water Tee",
+      "slug": "walk-on-water-tee",
+      "collection": "tees",
+      "priceKey": "tee",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": true,
+      "hero": false,
+      "sort": 1,
+      "verse": "Matthew 14:29",
+      "summary": "Black oversized tee. Walk on Water across the back, Matthew 14:29 underneath.",
+      "description": "A black oversized tee. On the back, a golf ball breaks the surface and Walk on Water runs across in cream and forest green, with Matthew 14:29 under a small crown. The front stays quieter: the Seventh Day mark, and a splash of color near the hem.",
+      "details": [
+        "Black oversized tee",
+        "Back graphic: golf ball, Walk on Water, Matthew 14:29, crown",
+        "Small Seventh Day mark on the front",
+        "Fabric weight confirmed when the sample arrives"
+      ],
+      "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/walk-on-water-tee/front.webp",
+          "alt": "Front of the black Walk on Water tee, flat, with the Seventh Day mark on the sleeve",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/walk-on-water-tee/front-angle.webp",
+          "alt": "Angled front of the black Walk on Water tee, with a small paint splash near the hem",
+          "view": "front-angle",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/walk-on-water-tee/back.webp",
+          "alt": "Back of the black Walk on Water tee, flat, with a golf ball and Matthew 14:29",
+          "view": "back",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/walk-on-water-tee/back-angle.webp",
+          "alt": "Angled back of the black Walk on Water tee showing the full Walk on Water graphic",
+          "view": "back-angle",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "tee-seventh-day-we-golf",
+      "name": "On the Seventh Day, We Golf Tee",
+      "slug": "on-the-seventh-day-we-golf-tee",
+      "collection": "tees",
+      "priceKey": "tee",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 2,
+      "verse": "",
+      "summary": "Black oversized tee with the line On the Seventh Day, We Golf across the back.",
+      "description": "A black oversized tee. The back carries a golf ball, a flag in the cup, and the line On the Seventh Day, We Golf in white and chartreuse. Seventh Day Golf sits above it, under a crown. The front carries the script logo.",
+      "details": [
+        "Black oversized tee",
+        "Back graphic: ball, flag, On the Seventh Day, We Golf",
+        "Seventh Day Golf wordmark and crown above the line",
+        "Script logo on the front",
+        "Fabric weight confirmed when the sample arrives"
+      ],
+      "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/on-the-seventh-day-we-golf-tee/front.webp",
+          "alt": "Front of the black On the Seventh Day, We Golf tee with the Seventh Day script logo",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/on-the-seventh-day-we-golf-tee/back.webp",
+          "alt": "Back of the black On the Seventh Day, We Golf tee, flat, with ball, flag, and chartreuse lettering",
+          "view": "back",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/on-the-seventh-day-we-golf-tee/back-angle.webp",
+          "alt": "Angled back of the black On the Seventh Day, We Golf tee",
+          "view": "back-angle",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "tee-jesus-caddie",
+      "name": "Jesus Is My Caddie Tee",
+      "slug": "jesus-is-my-caddie-tee",
+      "collection": "tees",
+      "priceKey": "tee",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 3,
+      "verse": "",
+      "summary": "Black oversized tee. Jesus walks a fairway with a golf bag under the words Jesus Is My Caddie.",
+      "description": "A black oversized tee. On the back, an illustration of Jesus walking a pine-lined fairway at sunrise with a golf bag over his shoulder, under the words Jesus Is My Caddie in cream blackletter. The front photograph is still being finished.",
+      "details": [
+        "Black oversized tee",
+        "Back illustration: Jesus carrying a golf bag on a course at sunrise",
+        "Cream blackletter: Jesus Is My Caddie",
+        "Front photo coming soon",
+        "Fabric weight confirmed when the sample arrives"
+      ],
+      "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/jesus-is-my-caddie-tee/back-angle.webp",
+          "alt": "Angled back of the black Jesus Is My Caddie tee, Jesus carrying a golf bag on a fairway at sunrise",
+          "view": "back-angle",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/jesus-is-my-caddie-tee/front.webp",
+          "alt": "Front of the black Jesus Is My Caddie tee, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "hat-bucket-white",
+      "name": "White Bucket Hat",
+      "slug": "white-bucket-hat",
+      "collection": "headwear",
+      "priceKey": "bucket-hat",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f4f1ea"
+        }
+      ],
+      "imageTone": "cream",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 4,
+      "verse": "",
+      "summary": "White bucket hat with the black Seventh Day script and est. 2026.",
+      "description": "A white bucket hat with the black Seventh Day script, a golf-club underline, and est. 2026. Easy shade for a midday round. One size.",
+      "details": [
+        "White bucket hat",
+        "Black script: Seventh Day, golf-club underline, est. 2026",
+        "One size"
+      ],
+      "fit": "One size.",
+      "images": [
+        {
+          "src": "images/products/white-bucket-hat/front.webp",
+          "alt": "White Seventh Day Golf bucket hat on a black background, script logo and est. 2026",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/white-bucket-hat/model-1.webp",
+          "alt": "Man outdoors wearing the white Seventh Day Golf bucket hat",
+          "view": "model",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/white-bucket-hat/model-2.webp",
+          "alt": "Man in a gray t-shirt holding the brim of the white Seventh Day Golf bucket hat",
+          "view": "model",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/white-bucket-hat/model-3.webp",
+          "alt": "Woman holding the brim of the white Seventh Day Golf bucket hat",
+          "view": "model",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/white-bucket-hat/model-4.webp",
+          "alt": "Man in a denim jacket wearing the white Seventh Day Golf bucket hat",
+          "view": "model",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "beanie-black",
+      "name": "Black Cuffed Beanie",
+      "slug": "black-cuffed-beanie",
+      "collection": "headwear",
+      "priceKey": "beanie",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 5,
+      "verse": "",
+      "summary": "Black cuffed beanie with the Seventh Day mark. Studio shots are still coming.",
+      "description": "A black cuffed beanie with the Seventh Day script, golf-club underline, and est. 2026 in white. The main studio photographs are still on the way. A seasonal photo is in the gallery until they arrive. One size.",
+      "details": [
+        "Black cuffed knit beanie",
+        "White mark: Seventh Day, golf-club underline, est. 2026",
+        "Studio photographs coming soon",
+        "One size"
+      ],
+      "fit": "One size. Cuffed.",
+      "images": [
+        {
+          "src": "images/products/black-cuffed-beanie/front.webp",
+          "alt": "Black cuffed Seventh Day Golf beanie, studio photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/black-cuffed-beanie/model-1.webp",
+          "alt": "Black cuffed Seventh Day Golf beanie styled with paper trees in a Christmas setting",
+          "view": "model",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "hat-dad-black",
+      "name": "Black Dad Hat",
+      "slug": "black-dad-hat",
+      "collection": "headwear",
+      "priceKey": "dad-hat",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 10,
+      "verse": "",
+      "summary": "Black dad hat with the Seventh Day script. Photograph coming soon.",
+      "description": "A black dad hat with the Seventh Day script on the front. The photograph is on the way and will drop into this page without a redesign. One size.",
+      "details": [
+        "Black dad hat",
+        "Seventh Day script on the front",
+        "Photograph coming soon",
+        "One size"
+      ],
+      "fit": "One size. Unstructured dad-hat fit.",
+      "images": [
+        {
+          "src": "images/products/black-dad-hat/front.webp",
+          "alt": "Black Seventh Day Golf dad hat, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "shorts-athletic-black",
+      "name": "Black Athletic Shorts",
+      "slug": "black-athletic-shorts",
+      "collection": "shorts",
+      "priceKey": "shorts",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#141414"
+        }
+      ],
+      "imageTone": "ink",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 9,
+      "verse": "",
+      "summary": "Black athletic shorts from 2XS to 6XL. Photograph coming soon.",
+      "description": "Black athletic shorts for warm-ups and the walk between shots. The size run goes from 2XS through 6XL. The studio photograph is on the way.",
+      "details": [
+        "Black athletic shorts",
+        "Sizes 2XS through 6XL",
+        "Fabric confirmed when the sample arrives",
+        "Photograph coming soon"
+      ],
+      "fit": "Cut with room to move. Size down if you want them shorter or closer. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/black-athletic-shorts/front.webp",
+          "alt": "Black Seventh Day Golf athletic shorts, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "towel-jesus-caddie",
+      "name": "Jesus Is My Caddie Towel",
+      "slug": "jesus-is-my-caddie-towel",
+      "collection": "accessories",
+      "priceKey": "towel",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#f3eee4"
+        }
+      ],
+      "imageTone": "cream",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 11,
+      "verse": "",
+      "summary": "Golf towel, 16 by 24 inches, with the Jesus Is My Caddie artwork.",
+      "description": "A golf towel, 16 by 24 inches, printed with the Jesus Is My Caddie artwork. One size. The photograph is on the way.",
+      "details": [
+        "Golf towel",
+        "16 \u00d7 24 inches",
+        "Jesus Is My Caddie artwork",
+        "Photograph coming soon",
+        "One size"
+      ],
+      "fit": "One size. 16 \u00d7 24 inches.",
+      "images": [
+        {
+          "src": "images/products/jesus-is-my-caddie-towel/front.webp",
+          "alt": "Jesus Is My Caddie golf towel, 16 by 24 inches, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "tee-white-black-sleeves",
+      "name": "White Script Tee",
+      "slug": "white-script-tee",
+      "collection": "tees",
+      "priceKey": "tee",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "White / Black sleeves",
+          "hex": "#f4f1ea"
+        }
+      ],
+      "imageTone": "cream",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 6,
+      "verse": "",
+      "summary": "White oversized tee with black sleeves. Script logo on the front, arched wordmark on the back.",
+      "description": "A white oversized tee with black sleeves. The Seventh Day script sits on the front. The back carries SEVENTH DAY GOLF in an arch. Photographs are on the way.",
+      "details": [
+        "White body, black sleeves",
+        "Script logo on the front",
+        "SEVENTH DAY GOLF arch on the back",
+        "Photographs coming soon",
+        "Fabric weight confirmed when the sample arrives"
+      ],
+      "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/white-script-tee/front.webp",
+          "alt": "Front of the white Seventh Day script tee with black sleeves, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/white-script-tee/back.webp",
+          "alt": "Back of the white script tee with the SEVENTH DAY GOLF arch, photograph coming soon",
+          "view": "back",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "tee-glory-of-god",
+      "name": "Glory of God Tee",
+      "slug": "glory-of-god-tee",
+      "collection": "tees",
+      "priceKey": "tee",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "Gray / White sleeves",
+          "hex": "#8d8f8c"
+        }
+      ],
+      "imageTone": "gray",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 7,
+      "verse": "1 Corinthians 10:31",
+      "summary": "Gray oversized tee with white sleeves and 1 Corinthians 10:31.",
+      "description": "A gray oversized tee with white sleeves. Across it: Whatever you do, do it all for the glory of God, with 1 Corinthians 10:31. Photographs are on the way.",
+      "details": [
+        "Gray body, white sleeves",
+        "Line from 1 Corinthians 10:31",
+        "Photographs coming soon",
+        "Fabric weight confirmed when the sample arrives"
+      ],
+      "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/glory-of-god-tee/front.webp",
+          "alt": "Front of the gray Glory of God tee with white sleeves, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/glory-of-god-tee/back.webp",
+          "alt": "Back of the gray Glory of God tee, photograph coming soon",
+          "view": "back",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    },
+    {
+      "id": "tee-cross-sunset",
+      "name": "Cross Sunset Tee",
+      "slug": "cross-sunset-tee",
+      "collection": "tees",
+      "priceKey": "tee",
+      "price": null,
+      "sizePrices": {},
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL",
+        "6XL"
+      ],
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#f7f4ee"
+        }
+      ],
+      "imageTone": "cream",
+      "newArrival": true,
+      "featured": false,
+      "hero": false,
+      "sort": 8,
+      "verse": "",
+      "summary": "White oversized tee with a cross at sunset and the crown mark on the back.",
+      "description": "A white oversized tee. A cross at sunset on the front, and the Seventh Day Golf crown on the back. Photographs are on the way.",
+      "details": [
+        "White oversized tee",
+        "Cross sunset graphic on the front",
+        "SEVENTH DAY GOLF crown on the back",
+        "Photographs coming soon",
+        "Fabric weight confirmed when the sample arrives"
+      ],
+      "fit": "Oversized on purpose. Size down if you want it closer to the body. 2XL through 6XL are priced a step higher.",
+      "images": [
+        {
+          "src": "images/products/cross-sunset-tee/front.webp",
+          "alt": "Front of the white Cross Sunset tee, photograph coming soon",
+          "view": "front",
+          "placeholder": true
+        },
+        {
+          "src": "images/products/cross-sunset-tee/back.webp",
+          "alt": "Back of the white Cross Sunset tee with the Seventh Day Golf crown, photograph coming soon",
+          "view": "back",
+          "placeholder": true
+        }
+      ],
+      "commerce": {
+        "shopifyProductId": "",
+        "shopifyVariantIds": {},
+        "stripePaymentLink": ""
+      }
+    }
+  ]
+}
