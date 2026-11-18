@@ -72,7 +72,7 @@ images/products/<slug>/model-1.webp
 
 To swap a photo in without the build, replace the WebP at the same path and set `"placeholder": false` on that image in `data/products.json`. The card uses the first real front shot, and hovers to the back when one exists.
 
-Every piece in the first drop has a photograph. The beanie’s Christmas photo is `lifestyle.webp`, last in that gallery, and it is not the hover image.
+Catalog flats are cream (`#F4F0E6`) shots named `<slug>-cream-front.jpg` and `<slug>-cream-back.jpg` in `sdg-mockups/`. Tees with a back graphic lead with the cream back and hover to the cream front. Hats, the beanie, and the towel lead with the cream front and hover to an on-model shot when one exists. Older black-background flats are not kept. The beanie’s Christmas photo is `lifestyle.webp`, last in that gallery.
 
 ## Checkout, later
 

@@ -5,6 +5,7 @@
   --cream: #f3eee4;
   --cream-2: #e7dcc8;
   --paper: #f7f4ee;
+  --studio: #F4F0E6;
   --white: #fffcf8;
   --gold: #b8956a;
   --muted: #5f5a52;
@@ -312,7 +313,7 @@ h1, h2, h3, p { margin: 0; }
   position: relative;
   display: block;
   aspect-ratio: 4 / 5;
-  background: #111;
+  background: var(--studio);
   overflow: hidden;
   outline: 1px solid rgba(18, 41, 28, .12);
 }
@@ -366,7 +367,7 @@ h1, h2, h3, p { margin: 0; }
   background: #111;
   color: var(--cream);
 }
-.feature img { width: 100%; height: 100%; max-height: 820px; object-fit: contain; background: #0c0c0c; }
+.feature img { width: 100%; height: 100%; max-height: 820px; object-fit: contain; background: var(--studio); }
 .lifestyle { position: relative; min-height: 78vh; display: flex; align-items: flex-end; color: var(--cream); background: #111; overflow: hidden; }
 .lifestyle img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
 .lifestyle-copy { position: relative; z-index: 1; width: min(1240px, calc(100% - 2rem)); margin: 0 auto 2.2rem; padding-top: 8rem; background: linear-gradient(transparent, rgba(8, 10, 9, .72)); }
@@ -441,7 +442,7 @@ h1, h2, h3, p { margin: 0; }
   padding-bottom: 3rem;
 }
 .gallery-main {
-  background: #111;
+  background: var(--studio);
   aspect-ratio: 4 / 5;
 }
 .gallery-main img { width: 100%; height: 100%; object-fit: cover; }
@@ -449,7 +450,7 @@ h1, h2, h3, p { margin: 0; }
 .thumbs button {
   border: 1px solid transparent;
   padding: 0;
-  background: #111;
+  background: var(--studio);
   width: 72px;
   height: 90px;
   flex: none;
@@ -522,7 +523,7 @@ th { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; backgr
   padding: .8rem 0;
   border-bottom: 1px solid var(--line);
 }
-.bag-line img { width: 72px; height: 90px; object-fit: cover; background: #111; }
+.bag-line img { width: 72px; height: 90px; object-fit: cover; background: var(--studio); }
 .muted { color: var(--muted); font-size: .88rem; }
 .empty { padding: 1rem 0; color: var(--muted); }
 
@@ -546,7 +547,7 @@ th { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; backgr
 .cart-head h2 { font-family: var(--display); font-size: 2rem; letter-spacing: .04em; }
 .cart-items { flex: 1; overflow: auto; padding: 0 1.1rem; }
 .cart-line { display: grid; grid-template-columns: 76px 1fr; gap: .75rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
-.cart-line img { width: 76px; height: 96px; object-fit: cover; background: #111; }
+.cart-line img { width: 76px; height: 96px; object-fit: cover; background: var(--studio); }
 .cart-line h3 { font-size: .95rem; }
 .qty { display: inline-flex; border: 1px solid var(--line); margin-top: .45rem; }
 .qty button { width: 32px; height: 32px; border: 0; background: var(--white); }

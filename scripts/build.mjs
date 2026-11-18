@@ -189,7 +189,8 @@ function write(path, html) {
 
 function hero() {
   const heroProduct = products.find((product) => product.hero);
-  const photo = pickImages(heroProduct).primary;
+  const photo = heroProduct.images.find((image) => image.view === "model" && !image.placeholder && !image.seasonal)
+    || pickImages(heroProduct).primary;
   const usable = photo && !photo.placeholder ? photo : null;
   const d = usable ? dims(usable.src) : null;
   return `<section class="hero${usable ? " hero-photo" : ""}">
