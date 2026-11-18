@@ -1,4 +1,8 @@
 {
+  "images/products/black-golf-rope-cap/front.webp": {
+    "width": 864,
+    "height": 1152
+  },
   "images/products/black-golf-rope-cap/model-1.webp": {
     "width": 1000,
     "height": 1000
@@ -7,53 +11,33 @@
     "width": 1000,
     "height": 1000
   },
-  "images/products/black-golf-rope-cap/front.webp": {
-    "width": 1000,
-    "height": 1000
+  "images/products/walk-on-water-tee/back.webp": {
+    "width": 864,
+    "height": 1152
   },
   "images/products/walk-on-water-tee/front.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/walk-on-water-tee/front-angle.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/walk-on-water-tee/back.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/walk-on-water-tee/back-angle.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/on-the-seventh-day-we-golf-tee/front.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
   "images/products/on-the-seventh-day-we-golf-tee/back.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
-  "images/products/on-the-seventh-day-we-golf-tee/back-angle.webp": {
-    "width": 1000,
-    "height": 1000
+  "images/products/on-the-seventh-day-we-golf-tee/front.webp": {
+    "width": 864,
+    "height": 1152
   },
   "images/products/jesus-is-my-caddie-tee/back.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
-  "images/products/jesus-is-my-caddie-tee/front-angle.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/jesus-is-my-caddie-tee/back-angle.webp": {
-    "width": 1000,
-    "height": 1000
+  "images/products/jesus-is-my-caddie-tee/front.webp": {
+    "width": 864,
+    "height": 1152
   },
   "images/products/white-bucket-hat/front.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
   "images/products/white-bucket-hat/model-1.webp": {
     "width": 1000,
@@ -72,8 +56,8 @@
     "height": 1000
   },
   "images/products/black-cuffed-beanie/front.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
   "images/products/black-cuffed-beanie/model-1.webp": {
     "width": 1000,
@@ -96,8 +80,8 @@
     "height": 1000
   },
   "images/products/black-dad-hat/front.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
   "images/products/black-dad-hat/model-1.webp": {
     "width": 1000,
@@ -124,43 +108,31 @@
     "height": 1000
   },
   "images/products/jesus-is-my-caddie-towel/front.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/white-script-tee/front-angle.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
   "images/products/white-script-tee/back.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
-  "images/products/white-script-tee/back-angle.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/glory-of-god-tee/front-angle.webp": {
-    "width": 1000,
-    "height": 1000
+  "images/products/white-script-tee/front.webp": {
+    "width": 864,
+    "height": 1152
   },
   "images/products/glory-of-god-tee/back.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
-  "images/products/glory-of-god-tee/back-angle.webp": {
-    "width": 1000,
-    "height": 1000
+  "images/products/glory-of-god-tee/front.webp": {
+    "width": 864,
+    "height": 1152
   },
   "images/products/cross-sunset-tee/back.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   },
   "images/products/cross-sunset-tee/front.webp": {
-    "width": 1000,
-    "height": 1000
-  },
-  "images/products/cross-sunset-tee/back-angle.webp": {
-    "width": 1000,
-    "height": 1000
+    "width": 864,
+    "height": 1152
   }
 }
